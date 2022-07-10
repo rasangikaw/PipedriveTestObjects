@@ -56,7 +56,21 @@
             </testResource>
         </testResources>
     </build>
-
+         
+    <repositories>
+		<repository>
+			<id>github</id>
+			<name>GitHub TobseF Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/rasangikaw/PipedriveFunctions</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+    </repositories>
+         
     <dependencies>
         <dependency>
             <groupId>com.pipedrive.functions</groupId>
