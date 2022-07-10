@@ -1,0 +1,94 @@
+{
+  "LoginUser": {
+    "username": "rasangika.niroshani@gmail.com",
+    "password": "1qaz2wsx@"
+  },
+  "DealData": {
+    "deal1": {
+      "personName": "RasangikaW",
+      "organizationName": "ABC Company",
+      "value": "1000",
+      "pipelineId": "1",
+      "phone": "0710000000",
+      "email": "abc@gmail.com",
+      "DealCloseDate": {
+        "dealCloseMonth": "July",
+        "dealCloseYear": "2022",
+        "dealCloseDate": "14"
+      },
+      "ScheduleData": {
+        "activitySubject": "Meeting with ABC Company",
+        "MeetingScheduleDate": {
+          "scheduleDueMonth": "July",
+          "scheduleDueTime": "3:15 PM",
+          "scheduleEndTime": "4:00 PM",
+          "scheduleNote": "This meeting is to discuss about ABC company deal with RasangikaW",
+          "scheduleMonth": "July",
+          "scheduleYear": "2022",
+          "scheduleDate": "15"
+        }
+      }
+    },
+    "deal2": {
+      "personName": "JohnDoe",
+      "organizationName": "123 Company",
+      "value": "10000",
+      "pipelineId": "1",
+      "phone": "0710000001",
+      "email": "123@gmail.com",
+      "DealCloseDate": {
+        "dealCloseMonth": "July",
+        "dealCloseYear": "2022",
+        "dealCloseDate": "20"
+      },
+      "ScheduleData": {
+        "activitySubject": "Meeting with ABC Company",
+        "MeetingScheduleDate": {
+          "scheduleDueMonth": "July",
+          "scheduleDueTime": "3:15 PM",
+          "scheduleEndTime": "4:00 PM",
+          "scheduleNote": "This meeting is to discuss about ABC company deal with RasangikaW",
+          "scheduleMonth": "July",
+          "scheduleYear": "2022",
+          "scheduleDate": "15"
+        }
+      }
+    },
+    "deal3": {
+      "personName": "JaneDoe",
+      "organizationName": "XYZ Company",
+      "value": "10001",
+      "pipelineId": "1",
+      "phone": "0710000002",
+      "email": "XYZ@gmail.com",
+      "DealCloseDate": {
+        "dealCloseMonth": "July",
+        "dealCloseYear": "2022",
+        "dealCloseDate": "21"
+      },
+      "ScheduleData": {
+        "activitySubject": "Meeting with ABC Company",
+        "MeetingScheduleDate": {
+          "scheduleDueMonth": "July",
+          "scheduleDueTime": "3:15 PM",
+          "scheduleEndTime": "4:00 PM",
+          "scheduleNote": "This meeting is to discuss about ABC company deal with RasangikaW",
+          "scheduleMonth": "July",
+          "scheduleYear": "2022",
+          "scheduleDate": "15"
+        }
+      }
+    }
+  },
+  "ProductData": {
+    "productName": "RasangikaW",
+    "productCode": "Product1",
+    "productCategory": "new category",
+    "unitsCount": "1",
+    "unitPrice": "999",
+    "tax": "10"
+  },
+    "PipelineData": {
+    "newPipelineName": "testPipeline"
+  }
+}

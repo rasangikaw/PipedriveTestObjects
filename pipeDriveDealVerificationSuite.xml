@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PipeDrive_Deal_Verification_Suite" verbose="1" parallel="tests"
+	   configfailurepolicy="continue" thread-count="30">
+	<test name="Pipedrive_Deal_Verification">
+		<classes>
+			<class name="tests.PipeDriveDealVerificationSuite">
+			</class>
+		</classes>
+	</test>
+</suite>
