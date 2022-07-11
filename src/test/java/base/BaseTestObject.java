@@ -39,9 +39,11 @@ public class BaseTestObject {
 
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
-            options.addArguments("--headless");
-            options.addArguments("--window-size=1920,1080");
-            options.addArguments("--start-maximized");
+            options.addArguments("--start-maximized", "--headless", "--window-size=2560,1440","--ignore-certificate-errors","--disable-extensions","--disable-dev-shm-usage");
+            options.addArguments("--test-type");
+            options.addArguments("--disable-gpu");
+            options.addArguments("--no-first-run");
+            options.addArguments("--no-default-browser-check");
 
             driver = new ChromeDriver(options);
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
