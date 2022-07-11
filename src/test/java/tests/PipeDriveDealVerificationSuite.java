@@ -120,7 +120,7 @@ public class PipeDriveDealVerificationSuite extends BaseTestObject {
             dealsController.getDealsFunctions().getDealsPage().clickOnLeftNavigationItem("Deals");
             dealsController.getDealsFunctions().switchToPipeline(pipelineName);
             dealsController.getDealsFunctions().deleteAllDealsByDragAndDrop();
-            Assert.assertTrue(dealsController.getDealsFunctions().getDealsPage().isDealsPageEmpty());
+            Assert.assertFalse(dealsController.getDealsFunctions().getDealsPage().isDealsCardsDisplayed());
             dealsController.getDealsFunctions().getDealsPage().clickOnLeftNavigationItem("Contacts");
             contactsController.getContactsFunctions().deleteAllOrganizations();
             Assert.assertTrue(contactsController.getContactsFunctions().getContactsPageMethods().isOrganizationsAreEmpty());
