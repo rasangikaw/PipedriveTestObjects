@@ -30,12 +30,13 @@ jobs:
       
   test:
     runs-on: ubuntu-latest
-    needs: 
-      - docker_build
+  
     container:
       image: rasangikaw/pipedriverepository:${{ github.sha }}
     steps: 
     - name: execute test
       run: |
-           cd /usr/src/app
            mvn clean test -s settings.xml -P PROD -Dsurefire.suiteXmlFiles="pipeDriveDealVerificationSuite.xml"
+           
+    needs: 
+      - docker_build
