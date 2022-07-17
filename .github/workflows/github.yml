@@ -36,6 +36,7 @@ jobs:
     steps: 
     - name: execute test
       run: |
+           cd /usr/src/app
            mvn clean test -s settings.xml -P PROD -Dsurefire.suiteXmlFiles="pipeDriveDealVerificationSuite.xml"
            
     needs: 
